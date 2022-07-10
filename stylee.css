@@ -1,0 +1,36 @@
+@import url ('https://fonts.googleapis.com/css2?display=swap');
+</estilo> família=Finlândia:ital,wght@1.400;1.500;1.600 e
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    fonte-família: 'Finlandica', sans-serif;
+    }
+    
+    nav { background-color:#7FFFD4;
+        position: fixed;
+        padding:10px 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        position: fixed;
+    }
+    img, li
+    { display:flexbox :block;
+
+    }
+    footer p { justify-content: space-between;
+        background-color:#7FFFD4;
+     height: 50px;
+    box-sizing:content-box;
+}
+div{
+    justify-content: space-between;
+position: relative;
+    
+}
+label{ 
+    align-items:center;
+}
