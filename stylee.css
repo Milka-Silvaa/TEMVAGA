@@ -1,36 +1,52 @@
 @import url ('https://fonts.googleapis.com/css2?display=swap');
 </estilo> família=Finlândia:ital,wght@1.400;1.500;1.600 e
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
-    fonte-família: 'Finlandica', sans-serif;
-    }
-    
-    nav { background-color:#7FFFD4;
-        position: fixed;
-        padding:10px 60px;
-        display: flex;
-        justify-content: space-between;
-        align-items:center;
-        position: fixed;
-    }
-    img, li
-    { display:flexbox :block;
-
-    }
-    footer p { justify-content: space-between;
-        background-color:#7FFFD4;
-     height: 50px;
-    box-sizing:content-box;
+* {padding: 0;
+margin: 0;
+box-sizing: border-box;
 }
-div{
+body{
+    background-color: #fffff0;
+}
+nav {
+    background-color:#7FFFD4;
+    position: fixed;
+    padding:10px 60px;
+    display: flex;
     justify-content: space-between;
-position: relative;
-    
-}
-label{ 
     align-items:center;
+    position: fixed;
+   }
+header {
+    height: px;
+    display: flex;
+justify-content: center;
+align-items: center;
+}   
+.gallery-container{text-decoration: none;
+
+}
+.gallery-items{
+    widht:340px;
+    height:340px;
+    border: 10px #7FFFD4;
+    box-shadow: 5px 5px 5px black;
+    ext-decoration: none;
+}
+.gallery-items img{
+display: grid;
+    widht: 200px;
+    border: 10px hsl(184, 57%, 63%);
+    box-shadow: 10px 10px 10px black;
+    text-decoration: none;
+}
+footer{
+    background-color: #7FFFD4;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.main p {
+    background-color: #7FFFD4;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+
 }

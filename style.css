@@ -8,6 +8,7 @@
     box-sizing: border-box
     fonte-família: 'Finlandica', sans-serif;
     }
+
     
     nav { background-color:#7FFFD4;
         position: fixed;
@@ -58,11 +59,14 @@
             justify-content: center;
             align-items:center;
             padding:  32px;}
-            div .cards .img {
+        
 
 
 
-            }
+        .div galerry-container{
 
 
-    }
+
+
+
+        }
