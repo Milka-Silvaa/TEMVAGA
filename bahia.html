@@ -1,56 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <!--java-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-    
-        <title>TemVaga</title>
+    <title>Share</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@100;300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg background-color:
-    ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">TEMVAGA</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">PAGINA INICIAL</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="destino.html">DESTINO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Promoção.html">PROMOÇÕES</a>
-              </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">CONTATOS</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="bahia.html">Melhores Paisagens</a></li>
-                  <li><a class="dropdown-item" href="#">Melhores experiencias</a></li>
-                  <li><a class="dropdown-item" href="#"></a></li>
-                  
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    <!--fimdonavbar-->    
 
-    
+<body>
+
+    <div class="container-fluid">
+        <header>
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-nav ">
+                <div class="container-fluid">
+                    <div>
+                        <a class="navbar-brand" href="#"><img src="/img/Logo.svg" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sobre nós</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Doação</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Causas</a>
+                            </li>
+                        </ul>
+                        <div>
+                            <button class="nav-btn">Doação</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+        <main>
+            <div class="img-banner">
+                <img src="img/banner.svg" alt="" class="banner">
+                <label class="txt-banner">INCLUSÃO DIGITAL É UM DIREITO DE TODOS. <br>
+                    <span class="txt-maior">O PODER <br> DA SABEDORIA EM SUAS MÃOS</span>
+                </label>
+            </div>
+            <div class="sobre">
+                <div class="contain-left">
+                    <img class="img-1" src="img/img-1.svg" alt="">
+                    <img class="img-2" src="img/img-2.svg" alt="">
+                </div>
+                <div class="contain-right">
+                    <div class="container-right">
+                        <h2>Como nós fazemos a diferença</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, autem temporibus!
+                            Exercitationem
+                            voluptatibus facilis, iusto amet animi pariatur expedita aliquam tenetur commodi dolor
+                            distinctio
+                            reprehenderit. Ratione pariatur quaerat officia debitis.</p>
+                        <div class="icone-um">
+                            <img src="img/hand-receiving.svg" alt="">
+                            <p>Você doa seu equipamento</p>
+                        </div>
+                        <div class="icone-dois">
+                            <img src="img/people-carry.svg" alt="">
+                            <p>Repassamos o equipamento para as instituições cadastradas, para que os alunos possam
+                                utilizar
+                                junto com a internet liberada pelo local</p>
+                        </div>
+                        <div class="icone-tres">
+                            <img src="img/wifi.svg" alt="">
+                            <p>Mapeamos e informamos aos alunos pontos de acesso gratuito a internet através de
+                                geolocalização</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
 
 
 
